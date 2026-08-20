@@ -315,6 +315,8 @@ nav:
         - vsvnakers:
           - STM32F103 TIM2 建模: blogs/2026/project/vsvnakers/stm32f1xx-timer.md
           - LLM Agent 外设建模: blogs/2026/project/vsvnakers/qemu-llm-agent.md
+        - jensenojs:
+          - CXL 方向: blogs/2026/project/jensenojs/blog-in-progress.md
     - 训练营 2025:
       - 专业阶段总结 LordaeronESZ: blogs/2025/qemu-camp-2025-LordaeronESZ.md
     - 其他技术博客:
