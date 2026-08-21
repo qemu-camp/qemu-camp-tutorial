@@ -6,7 +6,7 @@
 
 > 感谢 @zevorn 老师搭建的实验框架和笔记分享平台。
 >
-> 这篇 blog 的内容是笔者完成 GPU 方向进阶实验 1 之后进行的一些技术探索，主要是个人的实验和理解，内容比较杂碎，随便看看就好。
+> 这篇 blog 的内容是笔者完成 GPU 方向进阶实验 1 之后进行的一些技术探索，主要是个人的实验和理解。
 
 ---
 
@@ -267,11 +267,11 @@ Vortex 的架构在它的 Deepwiki 上已经讲的很清楚了，关于桥接的
     3. Coding agent 为了把这堆东西接起来到处缝补——不仅缝补，还编测试用例，制造出测试全对的表象
     4. 多测两遍发现每次结果都不一样，追溯到最后发现是 **ABI 问题**，POCL 的目标后端竟然是 CPU
 
-    这个时候我才发现有个网站叫做 deepwiki，打开一看才发现之前连续几天的工作全在造轮子。最后实在是没动力继续做了，因此这部分就烂尾了。
+    这个时候我才发现有个网站叫做 deepwiki，打开一看才发现之前连续几天的工作全在造轮子。
 
 ### 关于 Vortex
 
-之前想对 Vortex simx 的源码做一个解读，但周期级仿真引擎的基础代码过于复杂，到处都是模板元编程和各种复杂的嵌套类，耦合太重，因此只写了一篇就写不下去了（或许是我方向搞错了，应该解读 Vortex 的架构本身而非仿真引擎）文章放在 github 上了：[a note of vortex simx](https://gist.github.com/random25160765-collab/530368f76545f2121e2a4ac4b081c42d)。
+之前想对 Vortex simx 的源码做一个解读，但周期级仿真引擎的基础代码过于复杂，到处都是模板元编程和各种复杂的嵌套类，耦合太重，因此只写了一篇就懒得继续写了（或许是我方向搞错了，应该解读 Vortex 的架构本身而非仿真引擎）文章放在 github 上了：[a note of vortex simx](https://gist.github.com/random25160765-collab/530368f76545f2121e2a4ac4b081c42d)。
 
 知乎上有个搞 GPGPU 全栈的大佬做了一些 Vortex SimX 源码的解读和魔改，链接也放在下面，可供参考：<https://www.zhihu.com/people/yahah-97>；CSDN 上也有一些资料：[Vortex GPGPU 的硬件架构和代码结构分析-CSDN 博客](https://blog.csdn.net/weixin_41029027/article/details/140276734)（不过这些都是基于旧版本 Vortex 的解读了）
 
