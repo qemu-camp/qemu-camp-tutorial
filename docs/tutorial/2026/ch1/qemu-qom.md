@@ -109,7 +109,7 @@ static void __attribute__((constructor)) do_qemu_init_ ## function(void)    \
 }
 #endif
 
-// utils/module.c
+// util/module.c
 
 void register_module_init(void (*fn)(void), module_init_type type)
 {
