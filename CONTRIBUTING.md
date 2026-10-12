@@ -45,11 +45,11 @@
 
    ```bash
    # Fork 本仓库到您的 GitHub 账户后执行
-   git clone https://github.com/<你的 GitHub 用户名>/rust-for-qemu-insides.git
-   cd rust-for-qemu-insides
+   git clone https://github.com/<你的 GitHub 用户名>/qemu-camp-tutorial.git
+   cd qemu-camp-tutorial
 
    # 添加上游仓库以便后续同步更新
-   git remote add upstream https://github.com/<原始仓库用户名>/rust-for-qemu-insides.git
+   git remote add upstream https://github.com/qemu-camp/qemu-camp-tutorial.git
    ```
 
 2. **安装依赖**
